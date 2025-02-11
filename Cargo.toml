@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = ["host", "guest"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+opt-level = "s"
+debug = false
+strip = true
+lto = true
