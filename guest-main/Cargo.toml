@@ -1,5 +1,5 @@
 [package]
-name = "guest"
+name = "guest_main"
 version.workspace = true
 edition.workspace = true
 
@@ -7,4 +7,4 @@ edition.workspace = true
 wit-bindgen-rt = { version = "0.39.0", features = ["bitflags"] }
 
 [package.metadata.component]
-package = "component:example"
+package = "example:run-main"

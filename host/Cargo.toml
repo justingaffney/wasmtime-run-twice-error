@@ -4,5 +4,6 @@ version.workspace = true
 edition.workspace = true
 
 [dependencies]
+anyhow = "1.0"
 wasmtime = "29.0.1"
 wasmtime-wasi = "29.0.1"
